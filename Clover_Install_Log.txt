@@ -1,0 +1,31 @@
+
+Clover EFI installer log - Thu Apr 30 09:01:14 EEST 2015
+Installer version: v2.3k r3202 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *512.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Disk                    511.3 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.8 GB    disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:       Microsoft Basic Data CLOVER EFI              1.3 GB     disk1s2
+   3:                  Apple_HFS install_osx             14.2 GB    disk1s3
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/CLOVER EFI
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/CLOVER EFI
+Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

@@ -1,0 +1,174 @@
+25:807  21:334  Found BIOS RSDP at F0010
+25:807  0:000  Printing ACPI tables from RSDP F0010 ...
+25:807  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:807  0:000    (Xsdt: CA3860A8, Rsdt: CA386028)
+25:807  0:000    CA3860A8: 'XSDT', 'ALIENWRE', Rev: 1, Len: 212
+25:807  0:000    CA386028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 124
+25:807  0:000    Tables in Xsdt: 22
+25:807  0:000    0. CA39C250: 'FACP', 'ALIENWRE', Rev: 5, Len: 268
+25:807  0:000        (Dsdt: CA386210, Facs: CAD0DF80, XDsdt: CA386210, XFacs: 0)
+25:807  0:000        CA386210: 'DSDT', 'ALIENWRE', Rev: 2, Len: 90172
+25:810  0:003        CAD0DF80: 'FACS', Ver: 2, Len: 64
+25:810  0:000    1. CA39C360: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+25:810  0:000    2. CA39C420: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+25:810  0:000    3. CA39C468: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+25:810  0:000    4. CA39C508: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+25:810  0:000    5. CA39C548: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+25:810  0:000    6. CA39C580: 'SSDT', 'SataTabl', Rev: 1, Len: 1007
+25:810  0:000    7. CA39C970: 'UEFI', '', Rev: 1, Len: 66
+25:810  0:000    8. CA39C9B8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+25:810  0:000    9. CA39CA10: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1192
+25:810  0:000    10. CA39CEB8: 'ASF!', ' HCG', Rev: 32, Len: 160
+25:810  0:000    11. CA39CF58: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+25:810  0:000    12. CA39D0D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+25:810  0:000    13. CA39D610: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+25:810  0:000    14. CA39E188: 'SSDT', 'DptfTabl', Rev: 2, Len: 12853
+25:810  0:000    15. CA3A13C0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 25969
+25:810  0:000    16. CA3A7938: 'SSDT', 'SgPeg', Rev: 2, Len: 634
+25:810  0:000    17. CA3A7BB8: 'DMAR', 'BDW ', Rev: 1, Len: 184
+25:810  0:000    18. CA3A7C70: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+25:810  0:000    19. CA3A82B0: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+25:810  0:000    20. CA3A8310: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+25:810  0:000    21. CA3A8348: 'SSDT', 'OptTabl', Rev: 1, Len: 9097
+25:810  0:000    Tables in Rsdt: 22
+25:810  0:000    0. CA386188: 'FACP', 'ALIENWRE', Rev: 2, Len: 132
+25:810  0:000        (Dsdt: CA386210, Facs: CAD0DF40)
+25:810  0:000        CA386210: 'DSDT', 'ALIENWRE', Rev: 2, Len: 90172
+25:814  0:003        CAD0DF40: 'FACS', Ver: 0, Len: 64
+25:814  0:000    1. CA39C360: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+25:814  0:000    2. CA39C420: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+25:814  0:000    3. CA39C468: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+25:814  0:000    4. CA39C508: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+25:814  0:000    5. CA39C548: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+25:814  0:000    6. CA39C580: 'SSDT', 'SataTabl', Rev: 1, Len: 1007
+25:814  0:000    7. CA39C970: 'UEFI', '', Rev: 1, Len: 66
+25:814  0:000    8. CA39C9B8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+25:814  0:000    9. CA39CA10: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1192
+25:814  0:000    10. CA39CEB8: 'ASF!', ' HCG', Rev: 32, Len: 160
+25:814  0:000    11. CA39CF58: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+25:814  0:000    12. CA39D0D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+25:814  0:000    13. CA39D610: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+25:814  0:000    14. CA39E188: 'SSDT', 'DptfTabl', Rev: 2, Len: 12853
+25:814  0:000    15. CA3A13C0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 25969
+25:814  0:000    16. CA3A7938: 'SSDT', 'SgPeg', Rev: 2, Len: 634
+25:814  0:000    17. CA3A7BB8: 'DMAR', 'BDW ', Rev: 1, Len: 184
+25:814  0:000    18. CA3A7C70: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+25:814  0:000    19. CA3A82B0: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+25:814  0:000    20. CA3A8310: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+25:814  0:000    21. CA3A8348: 'SSDT', 'OptTabl', Rev: 1, Len: 9097
+25:814  0:000  Found UEFI Acpi 2.0 RSDP at CA386000
+25:814  0:000  Saving ACPI tables from RSDP CA386000 to EFI\CLOVER\ACPI\origin ...
+25:814  0:000   CA386000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:814  0:000    (Xsdt: CA3860A8, Rsdt: CA386028)
+25:814  0:000    CA3860A8: 'XSDT', 'ALIENWRE', Rev: 1, Len: 212
+25:814  0:000    CA386028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 124
+25:814  0:000    Tables in Xsdt: 22
+25:814  0:000    0. CA39C250: 'FACP', 'ALIENWRE', Rev: 5, Len: 268
+25:814  0:000        (Dsdt: CA386210, Facs: CAD0DF80, XDsdt: CA386210, XFacs: 0)
+25:814  0:000        CA386210: 'DSDT', 'ALIENWRE', Rev: 2, Len: 90172
+25:817  0:003        CAD0DF80: 'FACS', Ver: 2, Len: 64
+25:817  0:000    1. CA39C360: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+25:817  0:000    2. CA39C420: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+25:817  0:000    3. CA39C468: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+25:817  0:000    4. CA39C508: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+25:817  0:000    5. CA39C548: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+25:817  0:000    6. CA39C580: 'SSDT', 'SataTabl', Rev: 1, Len: 1007
+25:817  0:000    7. CA39C970: 'UEFI', '', Rev: 1, Len: 66
+25:817  0:000    8. CA39C9B8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+25:817  0:000    9. CA39CA10: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1192
+25:817  0:000    10. CA39CEB8: 'ASF!', ' HCG', Rev: 32, Len: 160
+25:817  0:000    11. CA39CF58: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+25:817  0:000    12. CA39D0D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+25:817  0:000    13. CA39D610: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+25:817  0:000    14. CA39E188: 'SSDT', 'DptfTabl', Rev: 2, Len: 12853
+25:817  0:000    15. CA3A13C0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 25969
+25:817  0:000    16. CA3A7938: 'SSDT', 'SgPeg', Rev: 2, Len: 634
+25:817  0:000    17. CA3A7BB8: 'DMAR', 'BDW ', Rev: 1, Len: 184
+25:817  0:000    18. CA3A7C70: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+25:817  0:000    19. CA3A82B0: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+25:817  0:000    20. CA3A8310: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+25:817  0:000    21. CA3A8348: 'SSDT', 'OptTabl', Rev: 1, Len: 9097
+25:817  0:000    Tables in Rsdt: 22
+25:817  0:000    0. CA386188: 'FACP', 'ALIENWRE', Rev: 2, Len: 132
+25:817  0:000        (Dsdt: CA386210, Facs: CAD0DF40)
+25:817  0:000        CA386210: 'DSDT', 'ALIENWRE', Rev: 2, Len: 90172
+25:820  0:003        CAD0DF40: 'FACS', Ver: 0, Len: 64
+25:820  0:000    1. CA39C360: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+25:820  0:000    2. CA39C420: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+25:820  0:000    3. CA39C468: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+25:820  0:000    4. CA39C508: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+25:820  0:000    5. CA39C548: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+25:820  0:000    6. CA39C580: 'SSDT', 'SataTabl', Rev: 1, Len: 1007
+25:820  0:000    7. CA39C970: 'UEFI', '', Rev: 1, Len: 66
+25:820  0:000    8. CA39C9B8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+25:820  0:000    9. CA39CA10: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1192
+25:820  0:000    10. CA39CEB8: 'ASF!', ' HCG', Rev: 32, Len: 160
+25:820  0:000    11. CA39CF58: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+25:821  0:000    12. CA39D0D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+25:821  0:000    13. CA39D610: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+25:821  0:000    14. CA39E188: 'SSDT', 'DptfTabl', Rev: 2, Len: 12853
+25:821  0:000    15. CA3A13C0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 25969
+25:821  0:000    16. CA3A7938: 'SSDT', 'SgPeg', Rev: 2, Len: 634
+25:821  0:000    17. CA3A7BB8: 'DMAR', 'BDW ', Rev: 1, Len: 184
+25:821  0:000    18. CA3A7C70: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+25:821  0:000    19. CA3A82B0: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+25:821  0:000    20. CA3A8310: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+25:821  0:000    21. CA3A8348: 'SSDT', 'OptTabl', Rev: 1, Len: 9097
+25:821  0:000  Found UEFI Acpi 1.0 RSDP at CA386000
+25:821  0:000  Printing ACPI tables from RSDP CA386000 ...
+25:821  0:000   CA386000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:821  0:000    (Xsdt: CA3860A8, Rsdt: CA386028)
+25:821  0:000    CA3860A8: 'XSDT', 'ALIENWRE', Rev: 1, Len: 212
+25:821  0:000    CA386028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 124
+25:821  0:000    Tables in Xsdt: 22
+25:821  0:000    0. CA39C250: 'FACP', 'ALIENWRE', Rev: 5, Len: 268
+25:821  0:000        (Dsdt: CA386210, Facs: CAD0DF80, XDsdt: CA386210, XFacs: 0)
+25:821  0:000        CA386210: 'DSDT', 'ALIENWRE', Rev: 2, Len: 90172
+25:824  0:003        CAD0DF80: 'FACS', Ver: 2, Len: 64
+25:824  0:000    1. CA39C360: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+25:824  0:000    2. CA39C420: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+25:824  0:000    3. CA39C468: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+25:824  0:000    4. CA39C508: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+25:824  0:000    5. CA39C548: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+25:824  0:000    6. CA39C580: 'SSDT', 'SataTabl', Rev: 1, Len: 1007
+25:824  0:000    7. CA39C970: 'UEFI', '', Rev: 1, Len: 66
+25:824  0:000    8. CA39C9B8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+25:824  0:000    9. CA39CA10: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1192
+25:824  0:000    10. CA39CEB8: 'ASF!', ' HCG', Rev: 32, Len: 160
+25:824  0:000    11. CA39CF58: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+25:824  0:000    12. CA39D0D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+25:824  0:000    13. CA39D610: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+25:824  0:000    14. CA39E188: 'SSDT', 'DptfTabl', Rev: 2, Len: 12853
+25:824  0:000    15. CA3A13C0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 25969
+25:824  0:000    16. CA3A7938: 'SSDT', 'SgPeg', Rev: 2, Len: 634
+25:824  0:000    17. CA3A7BB8: 'DMAR', 'BDW ', Rev: 1, Len: 184
+25:824  0:000    18. CA3A7C70: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+25:824  0:000    19. CA3A82B0: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+25:824  0:000    20. CA3A8310: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+25:824  0:000    21. CA3A8348: 'SSDT', 'OptTabl', Rev: 1, Len: 9097
+25:824  0:000    Tables in Rsdt: 22
+25:824  0:000    0. CA386188: 'FACP', 'ALIENWRE', Rev: 2, Len: 132
+25:824  0:000        (Dsdt: CA386210, Facs: CAD0DF40)
+25:824  0:000        CA386210: 'DSDT', 'ALIENWRE', Rev: 2, Len: 90172
+25:827  0:003        CAD0DF40: 'FACS', Ver: 0, Len: 64
+25:827  0:000    1. CA39C360: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+25:827  0:000    2. CA39C420: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+25:827  0:000    3. CA39C468: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+25:827  0:000    4. CA39C508: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+25:827  0:000    5. CA39C548: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+25:827  0:000    6. CA39C580: 'SSDT', 'SataTabl', Rev: 1, Len: 1007
+25:827  0:000    7. CA39C970: 'UEFI', '', Rev: 1, Len: 66
+25:827  0:000    8. CA39C9B8: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+25:827  0:000    9. CA39CA10: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1192
+25:827  0:000    10. CA39CEB8: 'ASF!', ' HCG', Rev: 32, Len: 160
+25:827  0:000    11. CA39CF58: 'SLIC', 'ALIENWRE', Rev: 1, Len: 374
+25:827  0:000    12. CA39D0D0: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+25:827  0:000    13. CA39D610: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+25:827  0:000    14. CA39E188: 'SSDT', 'DptfTabl', Rev: 2, Len: 12853
+25:827  0:000    15. CA3A13C0: 'SSDT', 'SaSsdt ', Rev: 2, Len: 25969
+25:827  0:000    16. CA3A7938: 'SSDT', 'SgPeg', Rev: 2, Len: 634
+25:827  0:000    17. CA3A7BB8: 'DMAR', 'BDW ', Rev: 1, Len: 184
+25:827  0:000    18. CA3A7C70: 'UEFI', 'RstSataE', Rev: 1, Len: 1594
+25:827  0:000    19. CA3A82B0: 'UEFI', 'RstSataV', Rev: 1, Len: 92
+25:827  0:000    20. CA3A8310: 'BGRT', 'ALIENWRE', Rev: 1, Len: 56
+25:827  0:000    21. CA3A8348: 'SSDT', 'OptTabl', Rev: 1, Len: 9097
